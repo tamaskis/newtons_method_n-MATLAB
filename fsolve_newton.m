@@ -6,7 +6,7 @@
 %   x = fsolve_newton(f,x0)
 %   x = fsolve_newton(f,x0,opts)
 %
-% See also newtons_method.
+% See also fsolve, newtons_method.
 %
 % Copyright © 2022 Tamas Kis
 % Last Update: 2022-01-02
