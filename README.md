@@ -6,7 +6,9 @@ Newton's method for finding the root of a differentiable, multivariate, vector-v
 ## Syntax
 
 `x = newtons_method_n(f,J,x0)`\
-`x = newtons_method_n(f,J,x0,opts)`
+`x = newtons_method_n(f,J,x0,opts)`\
+`[x,k] = newtons_method_n(__)`\
+`[x,k,x_all] = newtons_method_n(__)`
 
 
 ## Description
