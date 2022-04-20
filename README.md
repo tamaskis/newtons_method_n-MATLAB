@@ -25,7 +25,8 @@ Newton's method for finding the root of a differentiable, multivariate, vector-v
 `[x,k,x_all] = newtons_method_n(__)` does the same as the previous syntaxes, but also returns an array (`x_all`) storing the root estimates at each iteration. This syntax requires that `opts.return_all` be set to true.
 
 
-**NOTE:**
+## Note
+
    - The [_Numerical Differentiation Toolbox_](https://www.mathworks.com/matlabcentral/fileexchange/97267-numerical-differentiation-toolbox) provides functions for approximating the Jacobian.
 
 
