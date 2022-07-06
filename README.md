@@ -33,4 +33,4 @@ Newton's method for finding the root of a differentiable, multivariate, vector-v
 ## Examples and Additional Documentation
 
    - See "EXAMPLES.mlx" or the "Examples" tab on the File Exchange page for examples. 
-   - See ["Root_Finding_Methods.pdf"](https://tamaskis.github.io/documentation/Root_Finding_Methods.pdf) (also included with download) for the technical documentation.
+   - See ["Root_Finding_Methods.pdf"](https://tamaskis.github.io/files/Root_Finding_Methods.pdf) (also included with download) for the technical documentation.
