@@ -11,7 +11,7 @@
 % See also fsolve.
 %
 % Copyright © 2021 Tamas Kis
-% Last Update: 2022-07-06
+% Last Update: 2022-10-16
 % Website: https://tamaskis.github.io
 % Contact: tamas.a.kis@outlook.com
 %
@@ -76,6 +76,12 @@ function [x,k,x_all] = newtons_method_n(f,J,x0,opts)
     % dimension of x
     n = length(x0);
     
+    % returns initial guess if it is a root of f(x)
+    if f(x0) == zeros(n,1)
+        x = x0;
+        return
+    end
+    
     % sets solution estimate at the first iteration of Newton's method
     % as the initial guess
     x_curr = x0;
@@ -88,7 +94,7 @@ function [x,k,x_all] = newtons_method_n(f,J,x0,opts)
         x_all = zeros(n,k_max+1);
     end
     
-    % Newton's method
+    % iteration
     for k = 1:k_max
         
         % stores results in arrays
